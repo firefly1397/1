@@ -12,7 +12,7 @@ base64生成字符画
 ## 如何运行本程序
 1. 项目目录运行 **`npm install jimp`**
 2. 项目目录下创建path目录，把要编码的文件放入。
-3. 运行 **`node files_to_base64.js`** 获得文件merged.b64复制命令行输出的**`{ name: 'xxx.*', size: 1024 },`**
+3. 运行 **`node files_to_base64.js`** 获得文件merged.b64复制命令行输出的`{ name: 'xxx.*', size: 1024 },`
 4. 在项目目录下放入要生成的字符画的图片，命名成input.jpg或在base64_to_img.js修改输入文件名。
 5. 运行node base64_to_img.js获得output.txt字符画文件。
 6. 在img_to_files.js文件内加入复制的{ name: 'xxx.*', size: 1024 },
