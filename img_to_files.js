@@ -11,10 +11,7 @@ if (!fs.existsSync(outputDir)) {
 
 // 配置要解码的文件名和对应的文件大小（以字节为单位）
 const fileConfig = [
-    { name: 'lyric.lrc', size: 2432 },
-	{ name: 'music.mid', size: 10512 },
-	{ name: 'pic1.bmp', size: 4112 },
-	{ name: 'pic2.bmp', size: 10856 },
+    { name: 'xxx.*', size: 1024 },
 ];
 
 // 读取 merged.b64 文件
