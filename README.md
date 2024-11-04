@@ -3,7 +3,7 @@ base64生成字符画
 
 ## 项目结构
 
-**`bmp_to_binary.js`** : 将 字符画 解码为 文件 的程序代码  
+**`img_to_files.js`** : 将 字符画 解码为 文件 的程序代码  
 
 **`files_to_base64.js`** : 将 文件 转换为 base64字符串 的程序代码  
 
