@@ -7,7 +7,7 @@ base64生成字符画
 
 **`files_to_base64.js`** : 将 文件 转换为 base64字符串 的程序代码  
 
-**`base64_to_img.js`** : 将 base64字符串 转换为 字符画代码 的程序代码  
+**`base64_to_img.js`** : 将 base64字符串 转换为 字符画 的程序代码  
 
 ## 如何运行本程序
 1. 项目目录运行 **`npm install jimp`**
