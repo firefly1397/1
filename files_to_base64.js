@@ -22,9 +22,9 @@ const mergeFilesToBase64 = (directory, outputFile, separator = '#') => {
         });
 
         // 去掉最后一个分隔符
-        //if (combinedBase64.length > 0) {
-        //    combinedBase64 = combinedBase64.slice(0, -separator.length);
-        //}
+        if (combinedBase64.length > 0) {
+            combinedBase64 = combinedBase64.slice(0, -separator.length);
+        }
 
         // 写入合并后的 Base64 编码到输出文件
         fs.writeFileSync(outputFile, combinedBase64);
