@@ -55,12 +55,11 @@ const generateFormattedStringFromImage = (image, base64String) => {
             result += '"'; // 添加引号
             state = 0; // 重置状态
         }
-        result += '\n'; // 每行结束添加换行符
-
         // 如果Base64字符串用尽，停止处理
         if (base64Index >= base64Length) {
             break;
         }
+	result += '\n'; // 每行结束添加换行符
     }
 	
 	// 处理剩余的base64字符
@@ -70,7 +69,7 @@ const generateFormattedStringFromImage = (image, base64String) => {
         result += '"'; // 结束引号
     }
 
-    return result.trim(); // 去掉最后多余的空格
+    return result;
 };
 
 
