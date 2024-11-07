@@ -44,7 +44,6 @@ const generateFormattedStringFromImage = (image, base64String) => {
 
             // 如果Base64字符串用尽，停止处理
             if (base64Index >= base64Length) {
-				result += '"';
                 break;
             }
         }
